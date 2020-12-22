@@ -1,0 +1,27 @@
+/**
+* APP MAIN STYLES
+*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+header img {
+  display: block;
+  margin: auto;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cards .card {
+  flex-basis: 32%;
+  margin-right: 1%;
+}
